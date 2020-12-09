@@ -1,0 +1,121 @@
+#awm_map div {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+#awm_map {
+	width: 100% !important;
+}
+
+.contentbox {
+	line-height:1.35;
+	overflow:hidden;
+	width: 100%;
+	max-width: 400px;
+	min-width: 200px;
+}
+
+.contentbox .contentbox_inner {
+	padding: 10px;
+	padding-bottom: 4px;
+}
+
+.contentbox .streetview {
+	/*height: 100px;*/
+}
+
+.contentbox .streetview img {
+    border: none !important;
+    max-width: none !important;
+    width: 100%;
+    max-width: 400px !important;
+}
+
+.contentbox_inner .awm_title {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.contentbox_inner .awm_desc {
+	font-size: 12px;
+}
+
+.contentbox_inner .awm_address {
+	color: #8F8F8F;
+	padding-top: 5px;
+	border-top: 1px solid #EEEEEE;
+	word-wrap: break-word;
+}
+
+.arrowup {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+}
+
+.infoBox {
+	width: auto !important;
+	margin-top: 21px;
+	min-width: 130px;
+	margin-left: -14px;
+	max-width: 400px;
+}
+
+.infoBox:after, .infoBox:before { bottom: 100%; left: -1px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } .infoBox:after { border-color: rgba(136, 183, 213, 0); border-bottom-color: rgba(255,255,255,1); border-width: 12px; left:1px; } .infoBox:before { border-color: rgba(194, 225, 245, 0); border-bottom-color: #959595; border-width: 14px; }
+
+.pin_marker {
+	width: 36px;
+	height: 50px;	
+	background-image: url("../img/marker1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pin_marker .fa {
+	display: block;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    width: 36px;
+}
+
+.pin_marker.preview {
+	text-align: center;
+	display: block;
+	width: 36px;
+    padding-top: 9px;
+    padding-left: 1px;
+	font-size: 15px;
+	margin: auto;
+}
+
+.awm_search {
+	position: relative;
+	z-index:2;
+	width:25%;
+	float: right;
+	top: 80px;
+	height: 33px;
+	margin-top: -45px;
+	right:9px;
+}
+
+.awm_search input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}

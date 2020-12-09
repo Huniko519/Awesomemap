@@ -1,0 +1,213 @@
+@font-face{
+    font-family:FontAwesome;
+    src:url(../fonts/fontawesome-webfont.eot?#iefix) format('eot'),
+	url(../fonts/fontawesome-webfont.woff) format('woff'),
+	url(../fonts/fontawesome-webfont.ttf) format('truetype'),
+	url(../fonts/fontawesome-webfont.svg#FontAwesome) format('svg');
+    font-weight:400;font-style:normal;}
+
+body {
+	background: #2D333B;
+}
+
+.title {
+	font-size: 120px;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 2px 2px 0 #000;
+	
+	color:#FFF;
+	
+	padding-bottom: 50px;
+}
+
+.subtitle {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.install label {
+	color: #000;
+}
+
+.oi_preview_up {
+	margin-bottom: 0;
+	margin-top: 17px;
+	display: none;
+}
+
+label {
+	color:white;
+}
+
+.modal label {
+	color: #000;
+}
+
+.map {
+	min-height: 400px;
+	border: 4px solid white;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.admin_marker {
+	padding: 3px;
+}
+
+.btn-create-pin {
+	padding-bottom: 10px;
+}
+
+.pin_marker_example {
+	height:30px;
+	margin:3px;
+	margin-top:2px;
+}
+
+.mapaw_icon {
+	font-family: FontAwesome !important;
+	text-align: center !important;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.bootstrap-select.form-control:not([class*="span"]) {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.mapaw_color {
+	margin-bottom: 8px;
+}
+
+.mapaw_part2 {
+	display:none;
+}
+
+.or_preview {
+	color: #656565;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.icon-preview {
+	font-family: FontAwesome;
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+	background: #E3DED3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+.oi_well {
+	text-align: center;
+	margin-top: 10px;
+	display: none;
+}
+
+.marker-preview {
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+	background: #E3DED3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+.streetview_preview_form {
+	text-align: center;
+}
+
+.modal_address {
+	font-weight: bold;
+}
+
+.marker-preview img {
+	margin: 3px;
+	cursor: pointer;
+	padding: 3px;
+	border:3px solid transparent;
+}
+
+.marker-preview img:hover{
+	background: rgba(255,255,255,0.4);
+	border: 3px solid white;
+}
+
+.marker-preview .selected {
+	padding: 3px;
+	background: rgba(255,255,255,0.4);
+	border: 3px solid white;
+}
+
+select.mapaw_icon option {
+	padding: 8px;
+}
+
+.save_map_block {
+	padding: 10px;
+	padding-right: 0;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.feature_title {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.demo hr {
+	border-color: #4c4c4c;
+}
+
+.demo .features {
+	text-align: center;
+}
+
+.demo .features img {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.demo h4 {
+	color: white;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.demo .features p {
+	color: #E0E0E0;
+	font-family: 'Actor', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+::-webkit-input-placeholder {
+   color: #4A4A4A !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #4A4A4A !important;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4A4A4A !important;  
+}
+
+:-ms-input-placeholder {  
+   color: #4A4A4A !important;  
+}
